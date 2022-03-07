@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2343630385</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\adc.c</file>
+            <file>$PROJ_DIR$\adc.h</file>
+            <file>$PROJ_DIR$\ads1292.c</file>
+            <file>$PROJ_DIR$\ads1292.h</file>
+            <file>$PROJ_DIR$\bynary.h</file>
+            <file>$PROJ_DIR$\commands.c</file>
+            <file>$PROJ_DIR$\commands.h</file>
+            <file>$PROJ_DIR$\core_inits.c</file>
+            <file>$PROJ_DIR$\core_inits.h</file>
+            <file>$PROJ_DIR$\databatch.c</file>
+            <file>$PROJ_DIR$\databatch.h</file>
+            <file>$PROJ_DIR$\interrupts.h</file>
+            <file>$PROJ_DIR$\leds.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\ringbuffer.h</file>
+            <file>$PROJ_DIR$\uart_spi.c</file>
+            <file>$PROJ_DIR$\uart_spi.h</file>
+            <file>$PROJ_DIR$\utypes.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ads1292.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\ads1292.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430f2274.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\MSP430F2274.map</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\packer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\packer.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\MSP430F2274.ulp</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\databatch.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\databatch.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\databatch.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\core_inits.r43</file>
+            <file>$PROJ_DIR$\packer.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\MSP430F2274.d43</file>
+            <file>$PROJ_DIR$\Debug\Obj\core_inits.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\MSP430F2274.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\core_inits.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\msp430f2274.h</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\commands.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_spi.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\commands.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_spi.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\commands.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\packer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ads1292.r43</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 34 21</file>
+                </tool>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 41 42 43 11 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ads1292.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 41 42 43 44 4 17 12 16 3 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\commands.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 44 17 16 3 4 10 12 41 42 43</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\core_inits.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 41 42 43</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\databatch.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 3 44 4 17 1 16 12 41 42 43</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 41 42 43 8 16 44 17 12 6 3 4 1 10 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\uart_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 41 42 43 44 17 12 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\packer.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 3 44 1 16 12 41 42 43</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\MSP430F2274.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 20 27 52 50 32 29 36 49 22</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
