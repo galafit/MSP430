@@ -119,7 +119,7 @@ void uart_init() {
     UCA0CTL1 &= ~UCSWRST; //releasing uart  *Initialize USCI state machine*
 
     /*---------------- Enabling the interrupts ------------------*/
-    UART_RX_INTERRUPT_ENABLE(); // включить прерывания на передачу
+    UART_RX_INTERRUPT_ENABLE(); 
 }
 
 /**
